@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "inkswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maartene/InkSwift.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c14baca62ef0f90db383e5f9da016a0713c06add"
+      }
+    }
+  ],
+  "version" : 2
+}
