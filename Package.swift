@@ -9,7 +9,7 @@ let package = Package(
         .macOS(.v10_15)
     ],
     dependencies: [
-        .package(url: "https://github.com/maartene/InkSwift.git", .branch("main"))
+        .package(url: "https://github.com/maartene/InkSwift.git", .branch("JXKit"))
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
