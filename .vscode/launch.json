@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": ["swift"],
+      "args": [],
+      "cwd": "${workspaceFolder:InkSwiftCommandLineExample}",
+      "name": "Debug InkSwiftCommandLineExample",
+      "program": "${workspaceFolder:InkSwiftCommandLineExample}/.build/debug/InkSwiftCommandLineExample",
+      "preLaunchTask": "swift: Build Debug InkSwiftCommandLineExample"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": ["swift"],
+      "args": [],
+      "cwd": "${workspaceFolder:InkSwiftCommandLineExample}",
+      "name": "Release InkSwiftCommandLineExample",
+      "program": "${workspaceFolder:InkSwiftCommandLineExample}/.build/release/InkSwiftCommandLineExample",
+      "preLaunchTask": "swift: Build Release InkSwiftCommandLineExample"
+    }
+  ]
+}
